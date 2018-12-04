@@ -1,0 +1,122 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background-image:url(Background.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block
+}
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+.logo img
+{
+    width: 150px;
+    height: auto;
+    float: left  ;
+}
+
+.hero
+{
+    position: absolute;
+    height: 0px;
+    width: 1500px;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+h1
+{
+    color: firebrick;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.list
+{
+    position: absolute;
+    height: 0px;
+    width: 1500px;
+    margin-left: 25px;
+    margin-top: 0px;
+}
+
+ul
+{
+    color: firebrick;
+    text-transform: capitalize;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 150px;
+}
+
+.header
+{
+    position: absolute;
+    height: 0px;
+    width: 1500px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h2
+{
+    color: firebrick;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: right;
+    margin-top: 100px;
+}
+
+.lists
+{
+    position: absolute;
+    height: 0px;
+    width: 1500px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+ul
+{
+    color: firebrick;
+    text-transform: capitalize;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 150px;
+}
